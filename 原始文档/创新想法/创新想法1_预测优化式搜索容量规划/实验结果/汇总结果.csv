@@ -1,0 +1,2 @@
+﻿cross_validation_folds,test_state_count,predicted_mean_gain,fixed_mean_gain,oracle_mean_gain,prediction_wins,go
+3,6,0.3626666666666667,0.3626666666666667,0.3626666666666667,0,False
