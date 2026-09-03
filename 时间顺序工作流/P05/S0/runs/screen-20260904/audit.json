@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "trial_records": 17280,
+  "claimed_trial_decodes": 69580,
+  "replayed_candidate_and_parent_decodes": 45654,
+  "replayed_trial_decodes": 290,
+  "trial_replays": 120,
+  "folds": 8,
+  "source_unchanged": true,
+  "artifacts": {
+    "manifest.json": "9e8de82f922571d3f4943ae606afa78615e3e3a355f7f6196ebc7a0b2bd0a552",
+    "raw_trials.jsonl.gz": "db8852da1f55d7dfb9f13e2d5871979102eddc12d936087d452b7ece31f334b7",
+    "states.json": "ab1f50de27da57d01a3a4cf975dc04411358ace8f706f7e4d4585e8b0dc640db",
+    "trials.csv": "bb3bce2bffe5526dc561248d5820aae1ef016d228249fd9194953d1eb37a3e57",
+    "analysis\\E0_instances.csv": "782daab19c87a4e7ed40506122e8527e214337ca1281bad4deb776f1bca7c853",
+    "analysis\\E0_neighborhoods.csv": "0b77aba86788a4885df94433393828c17a22a80b19ecdad390aedb1aecbe9e4f",
+    "analysis\\E1_states.csv": "7011b37fc77d4bb22d5d31887a1dd5820ffe0d4a6ee3a86885495259bc593958",
+    "analysis\\E2_states.csv": "56f6bf77d005f418de0270e46a0a41fd1f464755d278fdb20ba2e8a50095a9f7",
+    "analysis\\folds.json": "5154c0a21439f2e2962f90189c63cd049e341d66c44015683bdfadf747f05fdf",
+    "analysis\\summary.json": "a658118ec2f130438b9a9ce015ab7a419c12d2b01888a2b893864b4d3657d628"
+  }
+}

@@ -1,0 +1,2 @@
+# Preserve recorded artifact bytes for SHA-256 verification across platforms.
+runs/** -text whitespace=cr-at-eol

@@ -1,0 +1,52 @@
+{
+  "status": "completed",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_repo": "D:\\南工\\智能调度\\论文\\源代码\\第二篇代码合集\\第二篇代码合集\\_codex_worktrees\\Python-NEW-paper-static-baseline-v1",
+  "commit": "b834c1b172a49e3df4148ecf8c26e6dc065baa15",
+  "source_hashes": {
+    "paper_static_baseline\\dfjspt\\ablations.py": "3de9e8c5a2d5ddbf7f3e661a2471382c2e2887afb08f57cbd783130a18870203",
+    "paper_static_baseline\\dfjspt\\chromosome.py": "c6438853e56199ea5cc684f8cb1dc1ff7a6abd3832beb77a4a663c00afd6dad5",
+    "paper_static_baseline\\dfjspt\\data.py": "438d8ea9a5c6a263609c1bab2e9b78834b4b6a941cc3dcd7474ccb773850a277",
+    "paper_static_baseline\\dfjspt\\decoder.py": "057af12c825fb9001dc70ea22870ad7af4fe1e9e3a4bf0fef2a03866c84b884d",
+    "paper_static_baseline\\dfjspt\\genetic.py": "3da43cb95c61af3b8a925753193d5065dfc2f27d3485ad86c8661c3b14181993",
+    "paper_static_baseline\\dfjspt\\initialization.py": "e992bc869a98d0e97c427bd21bf70063a1821d5363f93b190d0f9f673ccff54e",
+    "paper_static_baseline\\dfjspt\\metrics.py": "feeb8e302845e0720622605010c2ae69a40322adbe93a7016957a491e09f5cb1",
+    "paper_static_baseline\\dfjspt\\moead.py": "db3dd4523eb731a06537672a6b927a2b201f9c15b2fd2770f9ad445a3427fd1f",
+    "paper_static_baseline\\dfjspt\\mopso.py": "b4e231ddd9e4fa8d7f79ecfbe2e9e2dc7a57f51b5d8672dc9e7d2cddb39ce800",
+    "paper_static_baseline\\dfjspt\\multiobjective.py": "dae4aba69eb97be896f0973411be98dea0e823c20c48c4740a0c66cd556dd031",
+    "paper_static_baseline\\dfjspt\\neighborhoods.py": "663a6a2e58a3828846d65a12aef431a5982066e1e9848751f2913ce6899eef43",
+    "paper_static_baseline\\dfjspt\\nsga2.py": "d675aa03188481df81641743707bde633ac59fb0f0faa63c852d64560d008145",
+    "paper_static_baseline\\dfjspt\\objectives.py": "4645587ebaebf145914a1672fcb5c823b84e3539dc4cafed310c8c0460918c82",
+    "paper_static_baseline\\dfjspt\\qlearning.py": "e1d1ed191edbc4b23d494cddbac772c5e3da0cd115040bba5e3d8bc05f44822a",
+    "paper_static_baseline\\dfjspt\\qnsga2.py": "f5716c50bac1b617c7a3eb3a918beb7362c5b8622a9e85ff553c15f66053f48a",
+    "paper_static_baseline\\dfjspt\\__init__.py": "84042d9c3b2b69bc3e3b2e06426691a4abe588bf0bdf111680325664aae1930c",
+    "paper_static_baseline\\config\\paper_static_v1.json": "2a6a9e6bac7091bcc0ffed289e8f63c1053bd8d1f14ff2e0a16d85cd050dcc4c",
+    "paper_static_baseline\\data\\resources\\static_algorithm_comparison.json": "5353deab9283118a3c8c6dcb37cb40aaab6227a6d4e9fc44c6be30ba5864a409",
+    "paper_static_baseline\\data\\brandimarte\\Mk01.fjs": "0679e96f7f3cf013b20a857f474f10631af5f931994ea8754761569cc816dd10",
+    "paper_static_baseline\\data\\brandimarte\\Mk02.fjs": "44360812291e71cb7f891a21495eecfa281b3f196940cd13d5f6c2a528679ad2",
+    "paper_static_baseline\\data\\brandimarte\\Mk04.fjs": "b751cfef26d2b4a2af392107e69a9272eb3eebbd960592ed6557a1166a8670ee",
+    "paper_static_baseline\\data\\brandimarte\\Mk05.fjs": "5b02c162a32a2089736310842d63ca84a14c6b2c471581d425e54f0edde0aa74"
+  },
+  "protocol_hash": "2f39440412bb9146789206c06b8caa92047c7b304072a1b83bdae9284bb4b3a8",
+  "script_hash": "9a52a8a4625717a7d86309e770337ca391bd6c0df9cdf90f5a827711bce3093a",
+  "instances": [
+    "Mk01",
+    "Mk02",
+    "Mk04",
+    "Mk05"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "smoke": false,
+  "states": 36,
+  "trials": 17280,
+  "acquisition_decodes": 961,
+  "trial_decodes": 69580,
+  "evaluated_candidates": 45534,
+  "source_unchanged": true,
+  "seconds": 138.81609259999993
+}
