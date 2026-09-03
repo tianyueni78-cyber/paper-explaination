@@ -1,0 +1,580 @@
+{
+  "candidate_records": 95,
+  "doi_records": 76,
+  "verified": 76,
+  "unverified_doi": [],
+  "without_doi": [
+    "L048",
+    "L058",
+    "L059",
+    "L061",
+    "L063",
+    "L072",
+    "L078",
+    "L083",
+    "L084",
+    "L085",
+    "L090",
+    "L096",
+    "L098",
+    "L102",
+    "L104",
+    "L107",
+    "L108",
+    "L118",
+    "L119"
+  ],
+  "records": [
+    {
+      "id": "L030",
+      "doi": "10.1016/j.cor.2026.107500",
+      "status": "verified",
+      "crossref_title": "A deep Q-network enhanced variable neighborhood search algorithm based on NSGA-II for the multi-AGV flexible job shop scheduling problem with battery constraint"
+    },
+    {
+      "id": "L031",
+      "doi": "10.1016/j.eswa.2025.131024",
+      "status": "verified",
+      "crossref_title": "A Q-learning-driven evolutionary algorithm for energy-aware flexible job shop scheduling with preventive maintenance and finite AGVs"
+    },
+    {
+      "id": "L032",
+      "doi": "10.1080/09544828.2026.2683729",
+      "status": "verified",
+      "crossref_title": "Flexible job shop scheduling optimization with limited AGV transportation based on reinforcement learning and SPEA2 algorithm"
+    },
+    {
+      "id": "L033",
+      "doi": "10.1016/j.jmsy.2025.06.017",
+      "status": "verified",
+      "crossref_title": "Flexible Manufacturing Systems intralogistics: Dynamic optimization of AGVs and tool sharing using Colored-Timed Petri Nets and actor–critic RL with actions masking"
+    },
+    {
+      "id": "L034",
+      "doi": "10.1016/j.engappai.2026.113866",
+      "status": "verified",
+      "crossref_title": "Hybrid reinforcement learning assisted memetic algorithm for energy-efficient dynamic flexible job shop scheduling with limited transportation resources under new job arrivals"
+    },
+    {
+      "id": "L035",
+      "doi": "10.1016/j.asoc.2026.115530",
+      "status": "verified",
+      "crossref_title": "Multi-objective evolutionary algorithm based on reinforcement learning for flexible job shop scheduling with limited transportation resources"
+    },
+    {
+      "id": "L036",
+      "doi": "10.1016/j.eswa.2025.128142",
+      "status": "verified",
+      "crossref_title": "A cooperative agent deep reinforcement learning framework for solving flexible job shop scheduling problem with automated guided vehicles"
+    },
+    {
+      "id": "L037",
+      "doi": "10.1007/s40747-025-01828-6",
+      "status": "verified",
+      "crossref_title": "A heuristic-assisted deep reinforcement learning algorithm for flexible job shop scheduling with transport constraints"
+    },
+    {
+      "id": "L038",
+      "doi": "10.1016/j.swevo.2024.101834",
+      "status": "verified",
+      "crossref_title": "An enhanced decomposition-based multi-objective evolutionary algorithm with neighborhood search for multi-resource constrained job shop scheduling problem"
+    },
+    {
+      "id": "L039",
+      "doi": "10.1016/j.cor.2025.107087",
+      "status": "verified",
+      "crossref_title": "Deep reinforcement learning for solving efficient and energy-saving flexible job shop scheduling problem with multi-AGV"
+    },
+    {
+      "id": "L040",
+      "doi": "10.1016/j.swevo.2025.101885",
+      "status": "verified",
+      "crossref_title": "Deep reinforcement learning-based memetic algorithm for solving dynamic distributed green flexible job shop scheduling problem with finite transportation resources"
+    },
+    {
+      "id": "L041",
+      "doi": "10.1016/j.cie.2025.111465",
+      "status": "verified",
+      "crossref_title": "Evolutionary experience-guided deep reinforcement learning for job shop scheduling with AGV transportation constraints in flexible manufacturing system"
+    },
+    {
+      "id": "L042",
+      "doi": "10.1109/access.2025.3535825",
+      "status": "verified",
+      "crossref_title": "MILP Modeling and Optimization of Multi-Objective Three-Stage Flexible Job Shop Scheduling Problem With Assembly and AGV Transportation"
+    },
+    {
+      "id": "L043",
+      "doi": "10.2139/ssrn.5666918",
+      "status": "verified",
+      "crossref_title": "Multi-Objective Evolutionary Algorithm Based on Reinforcement Learning for Flexible Job Shop Scheduling with Limited Transportation Resources"
+    },
+    {
+      "id": "L044",
+      "doi": "10.1109/tsmc.2024.3520381",
+      "status": "verified",
+      "crossref_title": "Real-Time Scheduling for Flexible Job Shop With AGVs Using Multiagent Reinforcement Learning and Efficient Action Decoding"
+    },
+    {
+      "id": "L045",
+      "doi": "10.1080/03081079.2025.2548921",
+      "status": "verified",
+      "crossref_title": "Roles reversal evolutionary algorithm with neighborhood search for job shop scheduling problem considering insufficient machine buffer and AGVs"
+    },
+    {
+      "id": "L001",
+      "doi": "10.1016/j.swevo.2024.101658",
+      "status": "verified",
+      "crossref_title": "A\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si13.svg\" display=\"inline\" id=\"d1e4047\">\n                      <mml:mi>Q</mml:mi>\n                    </mml:math>\n                    -Learning based NSGA-II for dynamic flexible job shop scheduling with limited transportation resources"
+    },
+    {
+      "id": "L046",
+      "doi": "10.1016/j.cie.2024.109917",
+      "status": "verified",
+      "crossref_title": "Deep reinforcement learning-based memetic algorithm for energy-aware flexible job shop scheduling with multi-AGV"
+    },
+    {
+      "id": "L047",
+      "doi": "10.3390/pr12112423",
+      "status": "verified",
+      "crossref_title": "Dynamic Integrated Scheduling of Production Equipment and Automated Guided Vehicles in a Flexible Job Shop Based on Deep Reinforcement Learning"
+    },
+    {
+      "id": "L027",
+      "doi": "10.1038/s41598-024-79593-8",
+      "status": "verified",
+      "crossref_title": "Dynamic scheduling for flexible job shop based on MachineRank algorithm and reinforcement learning"
+    },
+    {
+      "id": "L048",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L049",
+      "doi": "10.1016/j.engappai.2024.107917",
+      "status": "verified",
+      "crossref_title": "Multi-objective adaptive large neighbourhood search algorithm for dynamic flexible job shop schedule problem with transportation resource"
+    },
+    {
+      "id": "L050",
+      "doi": "10.1016/j.cie.2023.109718",
+      "status": "verified",
+      "crossref_title": "Dynamic scheduling for flexible job shop with insufficient transportation resources via graph neural network and deep reinforcement learning"
+    },
+    {
+      "id": "L051",
+      "doi": "10.1109/iecon51785.2023.10312647",
+      "status": "verified",
+      "crossref_title": "Graph-based Reinforcement Learning for Flexible Job Shop Scheduling with Transportation Constraints"
+    },
+    {
+      "id": "L052",
+      "doi": "10.1109/tevc.2022.3219238",
+      "status": "verified",
+      "crossref_title": "A Learning-Based Multipopulation Evolutionary Optimization for Flexible Job Shop Scheduling Problem With Finite Transportation Resources"
+    },
+    {
+      "id": "L053",
+      "doi": "10.1016/j.procir.2022.09.039",
+      "status": "verified",
+      "crossref_title": "Using Multi-Agent Deep Reinforcement Learning For Flexible Job Shop Scheduling Problems"
+    },
+    {
+      "id": "L054",
+      "doi": "10.1109/mlise54096.2021.00049",
+      "status": "verified",
+      "crossref_title": "Autonomous decision-making method of transportation process for flexible job shop scheduling problem based on reinforcement learning"
+    },
+    {
+      "id": "L055",
+      "doi": "10.1016/j.procir.2021.11.257",
+      "status": "verified",
+      "crossref_title": "Simultaneous Production and AGV Scheduling using Multi-Agent Deep Reinforcement Learning"
+    },
+    {
+      "id": "L056",
+      "doi": "10.1080/00207543.2025.2612155",
+      "status": "verified",
+      "crossref_title": "A matheuristic and imitation learning-driven evolutionary algorithm for the flexible job shop scheduling benchmark problem with discrete operation sequence flexibility"
+    },
+    {
+      "id": "L057",
+      "doi": "10.1016/j.engappai.2026.114766",
+      "status": "verified",
+      "crossref_title": "A two-stage robust rescheduling for flexible job shop based on release time prediction using a Q-learning-based hyper-heuristic evolutionary algorithm"
+    },
+    {
+      "id": "L058",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L059",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L060",
+      "doi": "10.2139/ssrn.6170285",
+      "status": "verified",
+      "crossref_title": "Multi-Objective Q-Learning Hyper-Heuristic Algorithm for Solving the Low-Carbon Distributed Fuzzy Flexible Job Shop Scheduling Problem with Variable Processing Speeds"
+    },
+    {
+      "id": "L061",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L062",
+      "doi": "10.1016/j.artint.2026.104560",
+      "status": "verified",
+      "crossref_title": "Selection hyper-heuristics can automatically adjust the learning period to optimally solve pseudo-Boolean problems"
+    },
+    {
+      "id": "L063",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L064",
+      "doi": "10.29020/nybg.ejpam.v18i3.6602",
+      "status": "verified",
+      "crossref_title": "A Hybrid Metaheuristic Framework with Reinforcement Learning–Based Heuristic Selection for Large-Scale Combinatorial Optimization"
+    },
+    {
+      "id": "L065",
+      "doi": "10.1016/j.cor.2025.107223",
+      "status": "verified",
+      "crossref_title": "A selection hyper-heuristic approach to the single airport slot allocation problem"
+    },
+    {
+      "id": "L066",
+      "doi": "10.1080/17445760.2025.2605297",
+      "status": "verified",
+      "crossref_title": "Adaptive operator selection in heuristic optimization utilizing generalized experience with reinforcement learning"
+    },
+    {
+      "id": "L067",
+      "doi": "10.1016/j.cie.2025.111722",
+      "status": "verified",
+      "crossref_title": "Dynamic Location–Allocation–Routing scheduling for long-range maritime rescue operations using shipboard helicopters: A Q-learning-based hyper-heuristic approach"
+    },
+    {
+      "id": "L068",
+      "doi": "10.1016/j.ejor.2025.12.036",
+      "status": "verified",
+      "crossref_title": "Integrated trucks assignment and scheduling problem with mixed service mode docks: A Q-learning based adaptive large neighborhood search algorithm"
+    },
+    {
+      "id": "L069",
+      "doi": "10.1109/tetci.2025.3540422",
+      "status": "verified",
+      "crossref_title": "Multi-Objective Integrated Energy-Efficient Scheduling of Distributed Flexible Job Shop and Vehicle Routing by Knowledge-and-Learning-Based Hyper-Heuristics"
+    },
+    {
+      "id": "L070",
+      "doi": "10.1109/tetci.2025.3623315",
+      "status": "verified",
+      "crossref_title": "Niching Genetic Programming With Elite Archive for Multi-Objective Dynamic Scheduling"
+    },
+    {
+      "id": "L071",
+      "doi": "10.1109/tevc.2025.3543770",
+      "status": "verified",
+      "crossref_title": "Optimizing Dynamic Flexible Job Shop Scheduling Using an Evolutionary Multitask Optimization Framework and Genetic Programming"
+    },
+    {
+      "id": "L072",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L073",
+      "doi": "10.1016/j.aei.2025.103282",
+      "status": "verified",
+      "crossref_title": "Tackling dual-resource flexible job shop scheduling problem in the production line reconfiguration scenario: An efficient meta-heuristic with critical path-based neighborhood search"
+    },
+    {
+      "id": "L074",
+      "doi": "10.1016/j.cor.2024.106881",
+      "status": "verified",
+      "crossref_title": "A deep reinforcement learning hyperheuristic for the covering tour problem with varying coverage"
+    },
+    {
+      "id": "L075",
+      "doi": "10.1109/tetci.2024.3444698",
+      "status": "verified",
+      "crossref_title": "A Deep Reinforcement Learning-Based Adaptive Large Neighborhood Search for Capacitated Electric Vehicle Routing Problems"
+    },
+    {
+      "id": "L076",
+      "doi": "10.1016/j.swevo.2024.101485",
+      "status": "verified",
+      "crossref_title": "A genetic algorithm with critical path-based variable neighborhood search for distributed assembly job shop scheduling problem"
+    },
+    {
+      "id": "L077",
+      "doi": "10.1016/j.cor.2024.106791",
+      "status": "verified",
+      "crossref_title": "A Graph Reinforcement Learning Framework for Neural Adaptive Large Neighbourhood Search"
+    },
+    {
+      "id": "L078",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L079",
+      "doi": "10.1016/j.neucom.2024.127943",
+      "status": "verified",
+      "crossref_title": "A hyper-heuristic with deep Q-network for the multi-objective unmanned surface vehicles scheduling problem"
+    },
+    {
+      "id": "L080",
+      "doi": "10.1109/tevc.2024.3400043",
+      "status": "verified",
+      "crossref_title": "A Learning-Assisted Bi-Population Evolutionary Algorithm for Distributed Flexible Job-Shop Scheduling With Maintenance Decisions"
+    },
+    {
+      "id": "L081",
+      "doi": "10.1016/j.asoc.2024.112461",
+      "status": "verified",
+      "crossref_title": "A reinforcement learning hyper-heuristic algorithm for the distributed flowshops scheduling problem under consideration of emergency order insertion"
+    },
+    {
+      "id": "L082",
+      "doi": "10.1609/aaai.v38i16.29701",
+      "status": "verified",
+      "crossref_title": "Adaptive Anytime Multi-Agent Path Finding Using Bandit-Based Large Neighborhood Search"
+    },
+    {
+      "id": "L083",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L084",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L085",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L086",
+      "doi": "10.1016/j.ejor.2023.01.017",
+      "status": "verified",
+      "crossref_title": "A general deep reinforcement learning hyperheuristic framework for solving combinatorial optimization problems"
+    },
+    {
+      "id": "L087",
+      "doi": "10.1016/j.eswa.2023.121050",
+      "status": "verified",
+      "crossref_title": "A Q-learning-based hyper-heuristic evolutionary algorithm for the distributed flexible job-shop scheduling problem with crane transportation"
+    },
+    {
+      "id": "L088",
+      "doi": "10.1109/tase.2023.3327792",
+      "status": "verified",
+      "crossref_title": "Double DQN-Based Coevolution for Green Distributed Heterogeneous Hybrid Flowshop Scheduling With Multiple Priorities of Jobs"
+    },
+    {
+      "id": "L089",
+      "doi": "10.3390/systems11020103",
+      "status": "verified",
+      "crossref_title": "Energy-Saving Scheduling for Flexible Job Shop Problem with AGV Transportation Considering Emergencies"
+    },
+    {
+      "id": "L090",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L091",
+      "doi": "10.1016/j.ejor.2023.06.016",
+      "status": "verified",
+      "crossref_title": "Multi-armed bandit-based hyper-heuristics for combinatorial optimization problems"
+    },
+    {
+      "id": "L092",
+      "doi": "10.1109/access.2023.3277953",
+      "status": "verified",
+      "crossref_title": "PHH: Policy-Based Hyper-Heuristic With Reinforcement Learning"
+    },
+    {
+      "id": "L093",
+      "doi": "10.1016/j.asoc.2023.110695",
+      "status": "verified",
+      "crossref_title": "Q-learning-based hyper-heuristic evolutionary algorithm for the distributed assembly blocking flowshop scheduling problem"
+    },
+    {
+      "id": "L094",
+      "doi": "10.1080/00207543.2022.2060772",
+      "status": "verified",
+      "crossref_title": "A new neighbourhood structure for job shop scheduling problems"
+    },
+    {
+      "id": "L095",
+      "doi": "10.1016/j.knosys.2022.109190",
+      "status": "verified",
+      "crossref_title": "A self-adaptive hyper-heuristic based multi-objective optimisation approach for integrated supply chain scheduling problems"
+    },
+    {
+      "id": "L096",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L097",
+      "doi": "10.1109/tase.2021.3129439",
+      "status": "verified",
+      "crossref_title": "Learning-Based Grey Wolf Optimizer for Stochastic Flexible Job Shop Scheduling"
+    },
+    {
+      "id": "L098",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L099",
+      "doi": "10.23919/csms.2021.0010",
+      "status": "verified",
+      "crossref_title": "A Novel Cooperative Multi-Stage Hyper-Heuristic for Combination Optimization Problems"
+    },
+    {
+      "id": "L100",
+      "doi": "10.1007/s12532-021-00209-7",
+      "status": "verified",
+      "crossref_title": "Adaptive large neighborhood search for mixed integer programming"
+    },
+    {
+      "id": "L101",
+      "doi": "10.1016/j.swevo.2021.100985",
+      "status": "verified",
+      "crossref_title": "Multi-objective Q-learning-based hyper-heuristic with Bi-criteria selection for energy-aware mixed shop scheduling"
+    },
+    {
+      "id": "L102",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L103",
+      "doi": "10.1016/j.eswa.2021.115978",
+      "status": "verified",
+      "crossref_title": "Semiconductor final testing scheduling using Q-learning based hyper-heuristic"
+    },
+    {
+      "id": "L104",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L105",
+      "doi": "10.1002/net.21959",
+      "status": "verified",
+      "crossref_title": "Adaptive large variable neighborhood search for a multiperiod vehicle and technician routing problem"
+    },
+    {
+      "id": "L106",
+      "doi": "10.1162/evco_a_00258",
+      "status": "verified",
+      "crossref_title": "Simple Hyper-Heuristics Control the Neighbourhood Size of Randomised Local Search Optimally for LeadingOnes"
+    },
+    {
+      "id": "L107",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L108",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L109",
+      "doi": "10.1007/s40092-017-0204-z",
+      "status": "verified",
+      "crossref_title": "Solving the flexible job shop problem by hybrid metaheuristics-based multiagent model"
+    },
+    {
+      "id": "L110",
+      "doi": "10.1109/cisti.2015.7170394",
+      "status": "verified",
+      "crossref_title": "Q-learning based hyper-heuristic for scheduling system self-parameterization"
+    },
+    {
+      "id": "L111",
+      "doi": "10.1109/tcyb.2014.2323936",
+      "status": "verified",
+      "crossref_title": "A Dynamic Multiarmed Bandit-Gene Expression Programming Hyper-Heuristic for Combinatorial Optimization Problems"
+    },
+    {
+      "id": "L112",
+      "doi": "10.1613/jair.3313",
+      "status": "verified",
+      "crossref_title": "Efficient Multi-Start Strategies for Local Search Algorithms"
+    },
+    {
+      "id": "L113",
+      "doi": "10.1162/evco_a_00131",
+      "status": "verified",
+      "crossref_title": "Hyper-heuristic Evolution of Dispatching Rules: A Comparison of Rule Representations"
+    },
+    {
+      "id": "L114",
+      "doi": "10.1080/00207543.2012.752588",
+      "status": "verified",
+      "crossref_title": "A Pareto-based estimation of distribution algorithm for the multi-objective flexible job-shop scheduling problem"
+    },
+    {
+      "id": "L115",
+      "doi": "10.1155/2012/478981",
+      "status": "verified",
+      "crossref_title": "A Hybrid Multiobjective Evolutionary Approach for Flexible Job‐Shop Scheduling Problems"
+    },
+    {
+      "id": "L116",
+      "doi": "10.1109/cec.2012.6252969",
+      "status": "verified",
+      "crossref_title": "A VNS-based hyper-heuristic with adaptive computational budget of local search"
+    },
+    {
+      "id": "L117",
+      "doi": "10.1080/00207543.2011.639099",
+      "status": "verified",
+      "crossref_title": "An integrated scheduling and material-handling approach for complex job shops: a computational study"
+    },
+    {
+      "id": "L118",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L119",
+      "doi": null,
+      "status": "no-doi-in-record"
+    },
+    {
+      "id": "L120",
+      "doi": "10.1287/mnsc.42.6.797",
+      "status": "verified",
+      "crossref_title": "A Fast Taboo Search Algorithm for the Job Shop Problem"
+    },
+    {
+      "id": "L121",
+      "doi": "10.1016/j.ejor.2023.05.017",
+      "status": "verified",
+      "crossref_title": "The flexible job shop scheduling problem: A review"
+    },
+    {
+      "id": "L122",
+      "doi": "10.1016/j.cor.2022.105903",
+      "status": "verified",
+      "crossref_title": "A survey of adaptive large neighborhood search algorithms and applications"
+    }
+  ]
+}
