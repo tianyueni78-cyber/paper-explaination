@@ -12,6 +12,7 @@
 
 - [P01 项目边界与证据源锁定](P01/README.md)
 - [P02 静态A0 baseline冻结](P02/README.md)
+- [P03 A0诊断与研究问题形成](P03/README.md)
 
 ## 当前使用原则
 
