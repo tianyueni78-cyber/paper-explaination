@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "trajectories": 24,
+  "replay_decodes": 576,
+  "candidate_verification_decodes": 514,
+  "audit_acquisition_decodes": 24,
+  "audit_total_decodes": 1114,
+  "performance_claims": false
+}
