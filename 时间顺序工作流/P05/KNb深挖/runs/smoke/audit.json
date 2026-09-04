@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "D1_records": 648,
+  "D1_decodes": 3625,
+  "D3_trajectories": 36,
+  "D3_decodes": 3281,
+  "accepted_parent_changes": 477,
+  "audit_candidate_and_parent_decodes": 5137,
+  "trajectory_replays": 4,
+  "trajectory_replay_decodes": 357,
+  "source_unchanged": true,
+  "validation_label_poison_test": "PASS",
+  "final_holdout_unread": true,
+  "artifacts": {
+    "D1.csv": "48533c161cfc6b2e0afbf2289833e6098e9ead634e3f174b16518dc10c0e76c9",
+    "D1_raw.jsonl.gz": "425854470050a8def8d8ccf43cd49776ef6d31e6e37b9caf5d6e7ec87b470561",
+    "D3.csv": "d599e34e07ede764c4e9c09689120cc6fa5577b90a2b4845659e65ac3d64bf47",
+    "D3_raw.jsonl.gz": "0ade7f8accbc131ba471a28a880df2c67cd797a3c71c939c60f2276c98c273e2",
+    "manifest.json": "3a29590e55eae711c1aa67d090317479924a8c6f0056fd72994790d543308edd",
+    "selection.json": "f14485d1a66749a04ce16ea5be9e5e573df7d4567406d73d49804496636ad712",
+    "states.json": "e16ba9f9340ea22352f9c2a70dae3be5558578d41484fd6af0f50472b1d73bdd",
+    "analysis\\D1_instances.csv": "888ab528e1ac71cf27981d263d85000725abc8e094b9031538f55c4b3f37ac1b",
+    "analysis\\D2_states.csv": "e1cb811b62695ab5c75de9ab3149d184917621d7ccab0d19979e5b39f494637b",
+    "analysis\\D3_instances.csv": "f7d3faeac10edb5bfec822e0bdb18bf5f7f03220f3ac089178c20a497e26cfa6",
+    "analysis\\selection_audit.json": "42e5d64d373b9645488981884fff18b7ade632351f79018795d717cad0549fe0",
+    "analysis\\summary.json": "6633d11496763fbb262e302abb401fbba39c75cb6a3dd329c2f0a62c3e478946"
+  }
+}

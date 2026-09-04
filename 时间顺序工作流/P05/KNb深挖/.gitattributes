@@ -1,0 +1,2 @@
+runs/** -text whitespace=cr-at-eol
+literature/** -text whitespace=cr-at-eol

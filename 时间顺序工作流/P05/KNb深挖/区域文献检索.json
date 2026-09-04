@@ -1,0 +1,193 @@
+{
+  "api": "crossref",
+  "query": "query.title=A%20knowledge%20region%20selection%20enhanced%20quality-diversity%20algorithm%20for%20real-world%20flexible%20job%20shop%20scheduling&select=DOI,title,author,published,abstract",
+  "provenance": {
+    "urls": [
+      "https://api.crossref.org/works?query.title=A+knowledge+region+selection+enhanced+quality-diversity+algorithm+for+real-world+flexible+job+shop+scheduling&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Cabstract&rows=3&cursor=%2A"
+    ],
+    "delay_seconds": 0.3
+  },
+  "reconciliation": {
+    "expected_total": 6182716,
+    "retrieved_total": 3,
+    "pages_fetched": 1,
+    "complete": false,
+    "stopped_at_limit": true,
+    "shortfall": 6182713,
+    "shortfall_reason": "bounded by --max-records/--max-calls; raise the bound to continue",
+    "notes": [
+      "Crossref cursors expire after 5 minutes; a long walk must keep moving",
+      "stopped at the --max-calls limit of 1; the walk is INCOMPLETE"
+    ]
+  },
+  "records": [
+    {
+      "DOI": "10.1067/mhj.2000.108240",
+      "title": [
+        "Strict reliance on a computer algorithm or measurable ST segment criteria may lead to errors in thrombolytic therapy eligibility"
+      ],
+      "author": [
+        {
+          "given": "David",
+          "family": "Massel",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John A.",
+          "family": "Dawdy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Libardo J.",
+          "family": "Melendez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2000,
+            8
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1067/msy.1999.97994",
+      "title": [
+        "Using quality-of-life instruments to assess surgical outcomes"
+      ],
+      "author": [
+        {
+          "given": "Vic",
+          "family": "Velanovich",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1999,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1067/mva.1986.avs0030298",
+      "title": [
+        "Cerebral blood flow measured by xenon-enhanced computed tomography as a guide to management of patients with cerebrovascular disease"
+      ],
+      "author": [
+        {
+          "given": "Marshall W.",
+          "family": "Webster",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "David L.",
+          "family": "Steed",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Howard",
+          "family": "Yonas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Richard E.",
+          "family": "Latchaw",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sidney K.",
+          "family": "Wolfson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Gur",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1986,
+            2
+          ]
+        ]
+      }
+    }
+  ]
+}

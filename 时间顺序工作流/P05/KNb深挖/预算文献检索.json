@@ -1,0 +1,441 @@
+{
+  "api": "crossref",
+  "query": "query=adaptive%20computational%20budget%20local%20search&select=DOI,title,author,published",
+  "provenance": {
+    "urls": [
+      "https://api.crossref.org/works?query=adaptive+computational+budget+local+search&select=DOI%2Ctitle%2Cauthor%2Cpublished&rows=5&cursor=%2A"
+    ],
+    "delay_seconds": 0.3
+  },
+  "reconciliation": {
+    "expected_total": 2510789,
+    "retrieved_total": 5,
+    "pages_fetched": 1,
+    "complete": false,
+    "stopped_at_limit": true,
+    "shortfall": 2510784,
+    "shortfall_reason": "bounded by --max-records/--max-calls; raise the bound to continue",
+    "notes": [
+      "Crossref cursors expire after 5 minutes; a long walk must keep moving",
+      "stopped at the --max-calls limit of 1; the walk is INCOMPLETE"
+    ]
+  },
+  "records": [
+    {
+      "DOI": "10.1067/moe.2000.107506",
+      "title": [
+        "Ophthalmologic complications after intraoral local anesthesia with articaine"
+      ],
+      "author": [
+        {
+          "given": "M.",
+          "family": "Peñarrocha-Diago",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J.M.",
+          "family": "Sanchis-Bielsa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2000,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1067/msy.1999.98742",
+      "title": [
+        "Granulocyte colony-stimulating factor and neutrophil-related changes in local host defense during recovery from shock and intra-abdominal sepsis"
+      ],
+      "author": [
+        {
+          "given": "Kimberly A.",
+          "family": "Davis",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Timothy C.",
+          "family": "Fabian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "D. Nicholas",
+          "family": "Ragsdale",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lisa L.",
+          "family": "Trenthem",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Martin A.",
+          "family": "Croce",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kenneth G.",
+          "family": "Proctor",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1999,
+            8
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1067/msy.1998.85440",
+      "title": [
+        "Aggressive surgical approaches to hilar cholangiocarcinoma: Hepatic or local resection?"
+      ],
+      "author": [
+        {
+          "given": "Masaru",
+          "family": "Miyazaki",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hiroshi",
+          "family": "Ito",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Koji",
+          "family": "Nakagawa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Satoshi",
+          "family": "Ambiru",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hiroaki",
+          "family": "Shimizu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yoshiaki",
+          "family": "Shimizu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Atsushi",
+          "family": "Kato",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shunta",
+          "family": "Nakamura",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hideyuki",
+          "family": "Omoto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nobuyuki",
+          "family": "Nakajima",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fumio",
+          "family": "Kimura",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Toshikazu",
+          "family": "Suwa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1998,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1067/msy.1998.86984",
+      "title": [
+        "Depression of peritoneal fibrinolysis during operation is a local response to trauma"
+      ],
+      "author": [
+        {
+          "given": "Lena",
+          "family": "Holmdahl",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Elsa",
+          "family": "Eriksson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bengt I.",
+          "family": "Eriksson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bo",
+          "family": "Risberg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1998,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1067/mai.2000.110468",
+      "title": [
+        "Local reactions during allergen immunotherapy do not require dose adjustment"
+      ],
+      "author": [
+        {
+          "given": "Michael S.",
+          "family": "Tankersley",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kathryn K.",
+          "family": "Butler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "William K.",
+          "family": "Butler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David W.",
+          "family": "Goetz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2000,
+            11
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "D1_records": 11664,
+  "D1_decodes": 63068,
+  "D3_trajectories": 648,
+  "D3_decodes": 61035,
+  "accepted_parent_changes": 9841,
+  "audit_candidate_and_parent_decodes": 91710,
+  "trajectory_replays": 24,
+  "trajectory_replay_decodes": 2269,
+  "source_unchanged": true,
+  "validation_label_poison_test": "PASS",
+  "final_holdout_unread": true,
+  "artifacts": {
+    "D1.csv": "119d6ff2e3d955375910565c745c89a0b0034b1734df346c687bcc2af1f6b11a",
+    "D1_raw.jsonl.gz": "b3eec1d7d2292d3d3ef0696a21df6f1464f963d23ad6d925bfb431620b5841dd",
+    "D3.csv": "73368804e4463c89fd448dfcf74d5182ba9ab7831e707d50e8f477e441438f8e",
+    "D3_raw.jsonl.gz": "a6a2b88c60ba5d8557d65d84a9a801acf2d8155442980de8469c8876df3ad4eb",
+    "manifest.json": "4784be469e8cb7f63353c49975de3db51980d63b967e9a2cbe61085eb3df2911",
+    "selection.json": "54a607c2f76197ab90d09f46a32456acb5596d99ea68eb778bca30594365fadd",
+    "states.json": "99d17bbfb08b3151f3b7aefb10dc5c0158cb7c6c39dc39c3ee6ef3a98d42c9c4",
+    "analysis\\D1_instances.csv": "84f2ecce212739ed65f28699e48874b67561061fee0956e055393b710939cd88",
+    "analysis\\D2_states.csv": "a0eeefed203a718140e72c82a14bbe5a69f50fa8f04d6ea902da78be8aa33f4b",
+    "analysis\\D3_instances.csv": "1184cdbe9cd278e1c1d20da387e4ccad8927c99f2e6999ee015cd3ff3342b578",
+    "analysis\\selection_audit.json": "8c5238b922d5c398ff98f86e5e2bc872f583f49fe78ad4440f5e91df0f04360b",
+    "analysis\\summary.json": "e6988359efd3b44e8f5f5803e3fac297090dfb18f1aaef077ca74281c3d2c09d",
+    "analysis\\validation_stages.csv": "0a98e1ef29d437ce4bc7fa11012c992162c3b1cfe0b3541cb1a7e7a90ae88b23"
+  }
+}
