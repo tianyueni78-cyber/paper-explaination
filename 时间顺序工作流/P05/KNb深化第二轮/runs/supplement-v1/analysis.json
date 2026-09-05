@@ -1,0 +1,442 @@
+{
+  "regions": {
+    "N1/0.25/A": {
+      "proposals": 576,
+      "evaluated_pool": 574,
+      "positive_pool": 127,
+      "passed": 1,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.0017421602787456446
+    },
+    "N1/0.25/L": {
+      "proposals": 576,
+      "evaluated_pool": 574,
+      "positive_pool": 127,
+      "passed": 1,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.0017421602787456446
+    },
+    "N1/0.25/K": {
+      "proposals": 576,
+      "evaluated_pool": 574,
+      "positive_pool": 127,
+      "passed": 0,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.0
+    },
+    "N1/0.25/R": {
+      "proposals": 576,
+      "evaluated_pool": 574,
+      "positive_pool": 127,
+      "passed": 1,
+      "positive_passed": 1,
+      "positive_recall": 0.007874015748031496,
+      "pass_rate": 0.0017421602787456446
+    },
+    "N1/0.5/A": {
+      "proposals": 576,
+      "evaluated_pool": 574,
+      "positive_pool": 127,
+      "passed": 5,
+      "positive_passed": 1,
+      "positive_recall": 0.007874015748031496,
+      "pass_rate": 0.008710801393728223
+    },
+    "N1/0.5/L": {
+      "proposals": 576,
+      "evaluated_pool": 574,
+      "positive_pool": 127,
+      "passed": 9,
+      "positive_passed": 2,
+      "positive_recall": 0.015748031496062992,
+      "pass_rate": 0.0156794425087108
+    },
+    "N1/0.5/K": {
+      "proposals": 576,
+      "evaluated_pool": 574,
+      "positive_pool": 127,
+      "passed": 8,
+      "positive_passed": 2,
+      "positive_recall": 0.015748031496062992,
+      "pass_rate": 0.013937282229965157
+    },
+    "N1/0.5/R": {
+      "proposals": 576,
+      "evaluated_pool": 574,
+      "positive_pool": 127,
+      "passed": 5,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.008710801393728223
+    },
+    "N2/0.25/A": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 149,
+      "passed": 0,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.0
+    },
+    "N2/0.25/L": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 149,
+      "passed": 0,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.0
+    },
+    "N2/0.25/K": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 149,
+      "passed": 0,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.0
+    },
+    "N2/0.25/R": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 149,
+      "passed": 0,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.0
+    },
+    "N2/0.5/A": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 149,
+      "passed": 0,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.0
+    },
+    "N2/0.5/L": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 149,
+      "passed": 1,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.001736111111111111
+    },
+    "N2/0.5/K": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 149,
+      "passed": 0,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.0
+    },
+    "N2/0.5/R": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 149,
+      "passed": 0,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.0
+    },
+    "N3/0.25/A": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 217,
+      "passed": 135,
+      "positive_passed": 71,
+      "positive_recall": 0.3271889400921659,
+      "pass_rate": 0.234375
+    },
+    "N3/0.25/L": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 217,
+      "passed": 132,
+      "positive_passed": 65,
+      "positive_recall": 0.2995391705069124,
+      "pass_rate": 0.22916666666666666
+    },
+    "N3/0.25/K": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 217,
+      "passed": 159,
+      "positive_passed": 77,
+      "positive_recall": 0.3548387096774194,
+      "pass_rate": 0.2760416666666667
+    },
+    "N3/0.25/R": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 217,
+      "passed": 155,
+      "positive_passed": 46,
+      "positive_recall": 0.2119815668202765,
+      "pass_rate": 0.2690972222222222
+    },
+    "N3/0.5/A": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 217,
+      "passed": 274,
+      "positive_passed": 134,
+      "positive_recall": 0.6175115207373272,
+      "pass_rate": 0.4756944444444444
+    },
+    "N3/0.5/L": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 217,
+      "passed": 278,
+      "positive_passed": 128,
+      "positive_recall": 0.5898617511520737,
+      "pass_rate": 0.4826388888888889
+    },
+    "N3/0.5/K": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 217,
+      "passed": 297,
+      "positive_passed": 141,
+      "positive_recall": 0.6497695852534562,
+      "pass_rate": 0.515625
+    },
+    "N3/0.5/R": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 217,
+      "passed": 268,
+      "positive_passed": 98,
+      "positive_recall": 0.45161290322580644,
+      "pass_rate": 0.4652777777777778
+    },
+    "N4/0.25/A": {
+      "proposals": 576,
+      "evaluated_pool": 560,
+      "positive_pool": 195,
+      "passed": 134,
+      "positive_passed": 62,
+      "positive_recall": 0.31794871794871793,
+      "pass_rate": 0.2392857142857143
+    },
+    "N4/0.25/L": {
+      "proposals": 576,
+      "evaluated_pool": 560,
+      "positive_pool": 195,
+      "passed": 118,
+      "positive_passed": 48,
+      "positive_recall": 0.24615384615384617,
+      "pass_rate": 0.21071428571428572
+    },
+    "N4/0.25/K": {
+      "proposals": 576,
+      "evaluated_pool": 560,
+      "positive_pool": 195,
+      "passed": 148,
+      "positive_passed": 63,
+      "positive_recall": 0.3230769230769231,
+      "pass_rate": 0.2642857142857143
+    },
+    "N4/0.25/R": {
+      "proposals": 576,
+      "evaluated_pool": 560,
+      "positive_pool": 195,
+      "passed": 168,
+      "positive_passed": 63,
+      "positive_recall": 0.3230769230769231,
+      "pass_rate": 0.3
+    },
+    "N4/0.5/A": {
+      "proposals": 576,
+      "evaluated_pool": 560,
+      "positive_pool": 195,
+      "passed": 256,
+      "positive_passed": 117,
+      "positive_recall": 0.6,
+      "pass_rate": 0.45714285714285713
+    },
+    "N4/0.5/L": {
+      "proposals": 576,
+      "evaluated_pool": 560,
+      "positive_pool": 195,
+      "passed": 288,
+      "positive_passed": 125,
+      "positive_recall": 0.6410256410256411,
+      "pass_rate": 0.5142857142857142
+    },
+    "N4/0.5/K": {
+      "proposals": 576,
+      "evaluated_pool": 560,
+      "positive_pool": 195,
+      "passed": 311,
+      "positive_passed": 137,
+      "positive_recall": 0.7025641025641025,
+      "pass_rate": 0.5553571428571429
+    },
+    "N4/0.5/R": {
+      "proposals": 576,
+      "evaluated_pool": 560,
+      "positive_pool": 195,
+      "passed": 274,
+      "positive_passed": 93,
+      "positive_recall": 0.47692307692307695,
+      "pass_rate": 0.48928571428571427
+    },
+    "N5/0.25/A": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 127,
+      "passed": 127,
+      "positive_passed": 39,
+      "positive_recall": 0.30708661417322836,
+      "pass_rate": 0.2204861111111111
+    },
+    "N5/0.25/L": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 127,
+      "passed": 153,
+      "positive_passed": 43,
+      "positive_recall": 0.33858267716535434,
+      "pass_rate": 0.265625
+    },
+    "N5/0.25/K": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 127,
+      "passed": 153,
+      "positive_passed": 50,
+      "positive_recall": 0.3937007874015748,
+      "pass_rate": 0.265625
+    },
+    "N5/0.25/R": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 127,
+      "passed": 156,
+      "positive_passed": 41,
+      "positive_recall": 0.3228346456692913,
+      "pass_rate": 0.2708333333333333
+    },
+    "N5/0.5/A": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 127,
+      "passed": 260,
+      "positive_passed": 70,
+      "positive_recall": 0.5511811023622047,
+      "pass_rate": 0.4513888888888889
+    },
+    "N5/0.5/L": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 127,
+      "passed": 295,
+      "positive_passed": 80,
+      "positive_recall": 0.6299212598425197,
+      "pass_rate": 0.5121527777777778
+    },
+    "N5/0.5/K": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 127,
+      "passed": 293,
+      "positive_passed": 79,
+      "positive_recall": 0.6220472440944882,
+      "pass_rate": 0.5086805555555556
+    },
+    "N5/0.5/R": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 127,
+      "passed": 296,
+      "positive_passed": 61,
+      "positive_recall": 0.48031496062992124,
+      "pass_rate": 0.5138888888888888
+    },
+    "N6/0.25/A": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 256,
+      "passed": 128,
+      "positive_passed": 64,
+      "positive_recall": 0.25,
+      "pass_rate": 0.2222222222222222
+    },
+    "N6/0.25/L": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 256,
+      "passed": 96,
+      "positive_passed": 32,
+      "positive_recall": 0.125,
+      "pass_rate": 0.16666666666666666
+    },
+    "N6/0.25/K": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 256,
+      "passed": 64,
+      "positive_passed": 0,
+      "positive_recall": 0.0,
+      "pass_rate": 0.1111111111111111
+    },
+    "N6/0.25/R": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 256,
+      "passed": 96,
+      "positive_passed": 64,
+      "positive_recall": 0.25,
+      "pass_rate": 0.16666666666666666
+    },
+    "N6/0.5/A": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 256,
+      "passed": 448,
+      "positive_passed": 224,
+      "positive_recall": 0.875,
+      "pass_rate": 0.7777777777777778
+    },
+    "N6/0.5/L": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 256,
+      "passed": 256,
+      "positive_passed": 128,
+      "positive_recall": 0.5,
+      "pass_rate": 0.4444444444444444
+    },
+    "N6/0.5/K": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 256,
+      "passed": 384,
+      "positive_passed": 160,
+      "positive_recall": 0.625,
+      "pass_rate": 0.6666666666666666
+    },
+    "N6/0.5/R": {
+      "proposals": 576,
+      "evaluated_pool": 576,
+      "positive_pool": 256,
+      "passed": 224,
+      "positive_passed": 128,
+      "positive_recall": 0.5,
+      "pass_rate": 0.3888888888888889
+    }
+  },
+  "stage": "supplement",
+  "raw_sha256": "0bf911c1fcf0bbc9f6979a330ec0c784c2b2727ca355d1e6bfdb475214596768",
+  "exploratory": true,
+  "rows": 3456,
+  "analysis_sha256": "9afa6e6fd092e74622192839242a7401336e60e145cb7c3f47393b5d5066a945",
+  "numerical_positive_tolerance": 1e-12
+}
