@@ -14,7 +14,7 @@ class SupplementTests(unittest.TestCase):
             with patch.object(supplement.sys, 'argv', ['supplement', '--output', str(output)]), patch.object(supplement.gzip, 'open', side_effect=OSError('disk failure')):
                 with self.assertRaisesRegex(OSError, 'disk failure'):
                     supplement.main()
-            self.assertEqual(json.loads((output/'manifest.json').read_text())['status'], 'failed')
+            self.assertEqual(json.loads((output/'manifest.json').read_text(encoding='utf-8'))['status'], 'failed')
 
     @classmethod
     def setUpClass(cls):

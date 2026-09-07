@@ -1,0 +1,21 @@
+{
+  "version": "lifecycle-local-v1",
+  "scope": "fresh-seed-lifecycle-validation-before-integrated-run",
+  "instances": ["Mk01", "Mk02", "Mk03", "Mk04", "Mk05", "Mk06"],
+  "optimizer_seeds": [404, 505, 606, 707, 808, 909, 1001, 1102, 1203, 1304],
+  "local_repeats": [0, 1, 2],
+  "population_size": 20,
+  "generations": 20,
+  "checkpoints": [0, 2, 4, 8, 12, 16, 19],
+  "early_fraction": 0.2,
+  "late_fraction": 0.7,
+  "policies": ["fixed", "feedback"],
+  "fixed_action": {"fraction": 0.25, "neighborhood": "N3"},
+  "local_decode_budget": 96,
+  "primary_metric": "hv_gain",
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20260907,
+  "minimum_positive_instances": 4,
+  "timeout_seconds": 1800,
+  "integrated_run_requires_local_gate": true
+}
