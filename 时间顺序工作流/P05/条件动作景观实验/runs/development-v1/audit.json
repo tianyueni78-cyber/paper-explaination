@@ -1,0 +1,16 @@
+{
+  "status_completed": true,
+  "manifest_counts_match": true,
+  "summary_raw_keys_match": true,
+  "states": 360,
+  "trials": 34560,
+  "duplicate_pairs": 0,
+  "missing_pairs": 0,
+  "over_budget": 0,
+  "prefix_mismatches": 0,
+  "source_hashes_match": true,
+  "source_unchanged_recorded": true,
+  "passed": true,
+  "protocol_hash_matches": true,
+  "collector_hash_matches": true
+}

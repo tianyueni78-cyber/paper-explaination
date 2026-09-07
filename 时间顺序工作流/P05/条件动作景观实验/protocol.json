@@ -1,0 +1,45 @@
+{
+  "version": "conditional-landscape-v1",
+  "scope": "local_action_landscape_not_online_algorithm",
+  "baseline_commit": "b834c1b172a49e3df4148ecf8c26e6dc065baa15",
+  "splits": {
+    "development": {
+      "instances": ["Mk01", "Mk02", "Mk03", "Mk04", "Mk05", "Mk06"],
+      "optimizer_seeds": [1401, 1601, 1801]
+    },
+    "validation": {
+      "instances": ["Mk07", "Mk08"],
+      "optimizer_seeds": [2001, 2201, 2401, 2601, 2801],
+      "open_only_if_development_gates_pass": true
+    },
+    "sealed": {
+      "instances": ["Mk09", "Mk10"]
+    }
+  },
+  "population_size": 20,
+  "generations": 20,
+  "parent_per_generation": 1,
+  "region_group": "A",
+  "fractions": [0.25, 0.5],
+  "neighborhoods": [1, 2, 3, 4, 5, 6],
+  "budgets": [4, 12],
+  "repeats": [0, 1, 2, 3],
+  "selection_repeats": [0, 1],
+  "evaluation_repeats": [2, 3],
+  "attempts_per_allowed_decode": 40,
+  "primary_metric": "hv_gain_per_allowed_decode",
+  "predictor": {
+    "name": "standardized_knn",
+    "neighbors": 3,
+    "validation": "leave_one_instance_out"
+  },
+  "development_gate": {
+    "minimum_positive_instances": 4,
+    "require_positive_mean": true,
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 20260908
+  },
+  "timeout_seconds": 1800,
+  "auto_retry": false,
+  "overwrite_outputs": false
+}
