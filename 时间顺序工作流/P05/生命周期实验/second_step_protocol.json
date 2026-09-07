@@ -1,0 +1,21 @@
+{
+  "version": "lifecycle-step2-g1-v1",
+  "scope": "exploratory-localization-between-generation-zero-and-two",
+  "instances": ["Mk01", "Mk02", "Mk03", "Mk04", "Mk05", "Mk06"],
+  "optimizer_seeds": [404, 505, 606, 707, 808, 909, 1001, 1102, 1203, 1304],
+  "local_repeats": [0, 1, 2],
+  "population_size": 20,
+  "generations": 20,
+  "target_generation": 1,
+  "policies": ["fixed", "feedback"],
+  "fixed_action": {"fraction": 0.25, "neighborhood": "N3"},
+  "local_decode_budget": 96,
+  "common_real_decode_prefix": true,
+  "primary_metric": "hv_gain",
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20260917,
+  "source_raw_sha256": "c8e0d817882880a85f0140bdccea91e5ec15661e1331abab5d08ddee65afdcee",
+  "source_pointwise_sha256": "dd25220457a06dfc325d5a10b0918c76395ffe3ddcb77cc1ed937b4a74fdc62e",
+  "select_cutoff": false,
+  "timeout_seconds": 1800
+}
