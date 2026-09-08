@@ -1,0 +1,19 @@
+{
+  "version": "knb3-development-v1",
+  "scope": "development_only_not_confirmation",
+  "instances": ["Mk01", "Mk02", "Mk03", "Mk04", "Mk05", "Mk06"],
+  "heldout_forbidden": ["Mk07", "Mk08", "Mk09", "Mk10"],
+  "k_fractions": [0.25, 0.5],
+  "neighborhoods": [1, 2, 3, 4, 5, 6],
+  "budget_targets": [4, 8, 12],
+  "budget_tranche": 4,
+  "fallback_action": [0.25, 3, 4],
+  "q_terms": ["K", "N", "b", "KN", "Nb"],
+  "q_kb_enabled": false,
+  "q_reset": "each_independent_run",
+  "confidence_gate": "training_fold_calibrated_action_gap",
+  "fixed_generation_ratio": null,
+  "true_decode_charging": "every_complete_decode",
+  "performance_claims_from_unit_tests": false,
+  "validation_data_opened": false
+}
