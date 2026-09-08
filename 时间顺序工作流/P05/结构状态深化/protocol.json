@@ -1,0 +1,17 @@
+{
+  "version": "structural-state-offline-v1",
+  "source": "../条件动作景观实验/runs/development-v1",
+  "instances": ["Mk01", "Mk02", "Mk03", "Mk04", "Mk05", "Mk06"],
+  "selection_repeats": [0, 1],
+  "evaluation_repeats": [2, 3],
+  "fixed_action": [0.25, 3, 4],
+  "axes": {
+    "K": {"N": 3, "b": 4},
+    "N": {"K": 0.25, "b": 4},
+    "b": {"K": 0.25, "N": 3}
+  },
+  "predictors": ["flat_original", "flat_structural", "hierarchical_structural"],
+  "validation": "leave_one_instance_out",
+  "primary_metric": "hv_gain_per_allowed_decode",
+  "validation_data_opened": false
+}
