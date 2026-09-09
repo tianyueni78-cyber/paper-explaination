@@ -1,0 +1,23 @@
+{
+  "000_fixed": {
+    "trajectories": 54,
+    "mean_gain": 0.07485944040483553,
+    "mean_decodes": 91.12962962962963,
+    "mean_q_updates": 0.0,
+    "zero_decode_decisions": 10354
+  },
+  "010_q": {
+    "trajectories": 54,
+    "mean_gain": 0.07505724804353925,
+    "mean_decodes": 94.16666666666667,
+    "mean_q_updates": 24.944444444444443,
+    "zero_decode_decisions": 3793
+  },
+  "010_rule": {
+    "trajectories": 54,
+    "mean_gain": 0.05627983324370194,
+    "mean_decodes": 88.0,
+    "mean_q_updates": 0.0,
+    "zero_decode_decisions": 9460
+  }
+}

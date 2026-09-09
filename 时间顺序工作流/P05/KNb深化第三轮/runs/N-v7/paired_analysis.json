@@ -1,0 +1,70 @@
+{
+  "010_q": {
+    "treatment": "010_q",
+    "baseline": "000_fixed",
+    "pairs": 54,
+    "mean_gain_difference": 0.0022557325881323483,
+    "mean_decode_difference": 2.240740740740741,
+    "mean_efficiency_difference": -4.779273721343704e-06,
+    "instance_gain_differences": {
+      "Mk01": 0.018608174919859864,
+      "Mk02": -0.0019361823820781862,
+      "Mk03": -0.007267124061611936,
+      "Mk04": 0.009366521726423167,
+      "Mk05": -0.0012877367558713762,
+      "Mk06": -0.003949257917927442
+    },
+    "gain_interval": [
+      -0.00427611384950472,
+      0.009992341968700656
+    ],
+    "positive_gain_instances": 2,
+    "instance_efficiency_differences": {
+      "Mk01": 5.010836266353478e-05,
+      "Mk02": -2.0168566479981146e-05,
+      "Mk03": -7.569920897512435e-05,
+      "Mk04": 8.434206393811499e-05,
+      "Mk05": -2.6120190162862305e-05,
+      "Mk06": -4.113810331174419e-05
+    },
+    "efficiency_interval": [
+      -4.666056353609676e-05,
+      4.025008004955907e-05
+    ],
+    "positive_efficiency_instances": 2
+  },
+  "010_rule": {
+    "treatment": "010_rule",
+    "baseline": "000_fixed",
+    "pairs": 54,
+    "mean_gain_difference": -0.01857960716113358,
+    "mean_decode_difference": -3.1296296296296298,
+    "mean_efficiency_difference": -0.0002313720884682343,
+    "instance_gain_differences": {
+      "Mk01": -0.047993959980549686,
+      "Mk02": -0.04948092649815036,
+      "Mk03": -0.009101093131587681,
+      "Mk04": 0.012757418810896367,
+      "Mk05": -0.01765908216741012,
+      "Mk06": 0.0
+    },
+    "gain_interval": [
+      -0.03695165804273298,
+      -0.00029807362882838486
+    ],
+    "positive_gain_instances": 1,
+    "instance_efficiency_differences": {
+      "Mk01": -0.0008021385343993338,
+      "Mk02": -0.000410290129136388,
+      "Mk03": -9.480305345403836e-05,
+      "Mk04": 0.00011966390856804416,
+      "Mk05": -0.0002006647223876897,
+      "Mk06": 0.0
+    },
+    "efficiency_interval": [
+      -0.00048525146429807126,
+      -9.356659784273292e-06
+    ],
+    "positive_efficiency_instances": 1
+  }
+}

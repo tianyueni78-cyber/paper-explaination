@@ -2,6 +2,7 @@ import unittest
 
 from mechanisms_v3 import (
     FactorizedQ,
+    balanced_cold_start,
     confidence_action,
     decay_state_credit,
     feasible_neighborhoods,
@@ -43,6 +44,14 @@ class MechanismsV3Tests(unittest.TestCase):
         self.assertEqual(confidence_action(values, 0.1), (0.25, 2, 4))
         self.assertIsNone(confidence_action(values, 0.3))
         self.assertIsNone(confidence_action({(0.25, 2, 4): 0.8}, 0.0))
+
+    def test_cold_start_covers_each_factor_with_minimum_combinations(self):
+        actions = balanced_cold_start((0.25, 0.5), (2, 4, 6), (4, 8, 12))
+        self.assertEqual(len(actions), 3)
+        self.assertEqual({action[0] for action in actions}, {0.25, 0.5})
+        self.assertEqual({action[1] for action in actions}, {2, 4, 6})
+        self.assertEqual({action[2] for action in actions}, {4, 8, 12})
+        self.assertEqual(balanced_cold_start((0.25,), (), (4,)), ())
 
     def test_state_change_and_decay_affect_only_old_state(self):
         score = state_change_score({1, 2}, {2, 3}, (1, 0, 2), (0, 0, 4))

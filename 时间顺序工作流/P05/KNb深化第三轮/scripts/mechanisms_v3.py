@@ -15,6 +15,17 @@ def feasible_neighborhoods(opportunities):
     return tuple(n for n in range(1, 7) if opportunities.get(n, 0) > 0)
 
 
+def balanced_cold_start(k_values, n_values, b_values):
+    """用最少组合至少覆盖每个可行因子取值一次。"""
+    if not k_values or not n_values or not b_values:
+        return ()
+    size = max(len(k_values), len(n_values), len(b_values))
+    return tuple(
+        (k_values[index % len(k_values)], n_values[index % len(n_values)], b_values[index % len(b_values)])
+        for index in range(size)
+    )
+
+
 def next_budget_tranche(spent, recent_batches, remaining, minimum_gain_per_decode, maximum=12, tranche=4):
     """先给4次；之后仅在最近一批单位解码收益达标时继续。"""
     if spent >= maximum or remaining <= 0:
