@@ -1,0 +1,78 @@
+[
+  {
+    "id": "llm_i1_machine_speed",
+    "code": "def i1_machine_speed_pair(\n    data: ExperimentInput, chromosome: Chromosome, rng: random.Random\n) -> Chromosome:\n    \"\"\"Purpose: 联动修改候选机器与载货速度；Input/Output: 标准三参数/新染色体。\"\"\"\n    del rng\n    choices = []\n    flat = 0\n    for job in data.instance.jobs:\n        for operation in job.operations:\n            if len(operation.options) > 1:\n                times = [option.processing_time for option in operation.options]\n                choices.append((max(times) - min(times), flat, times))\n            flat += 1\n    if not choices:\n        loaded = list(chromosome.loaded_speed)\n        loaded[0] = max(range(len(data.agv.speeds)), key=data.agv.speeds.__getitem__)\n        return _copy(chromosome, loaded=loaded)\n    _, position, times = max(choices)\n    ms = list(chromosome.ms)\n    best = min(range(len(times)), key=times.__getitem__)\n    ms[position] = best if best != ms[position] else (best + 1) % len(times)\n    loaded = list(chromosome.loaded_speed)\n    loaded[position] = max(range(len(data.agv.speeds)), key=data.agv.speeds.__getitem__)\n    return _copy(chromosome, ms=ms, loaded=loaded)\n",
+    "generation_operator": "i1",
+    "parents": [],
+    "model": "OpenAI Codex GPT-5",
+    "seed": 101,
+    "validation_result": {
+      "syntax_import": true,
+      "interface": true,
+      "chromosome": true,
+      "decode": true,
+      "status": "valid",
+      "error": ""
+    }
+  },
+  {
+    "id": "llm_e1_order_agv",
+    "code": "def e1_order_agv_exchange(\n    data: ExperimentInput, chromosome: Chromosome, rng: random.Random\n) -> Chromosome:\n    \"\"\"Purpose: 将 OS 交换与 AGV 重分配组合；Input/Output: 标准三参数/新染色体。\"\"\"\n    os = list(chromosome.os)\n    pairs = [(a, b) for a in range(len(os)) for b in range(a + 1, len(os)) if os[a] != os[b]]\n    if pairs:\n        first, second = rng.choice(pairs)\n        os[first], os[second] = os[second], os[first]\n    agv = list(chromosome.agv)\n    position = rng.randrange(len(agv))\n    agv[position] = (agv[position] + 1 + rng.randrange(data.agv.count - 1)) % data.agv.count\n    return _copy(chromosome, os=os, agv=agv)\n",
+    "generation_operator": "e1",
+    "parents": [
+      "N1",
+      "N2",
+      "N5"
+    ],
+    "model": "OpenAI Codex GPT-5",
+    "seed": 102,
+    "validation_result": {
+      "syntax_import": true,
+      "interface": true,
+      "chromosome": true,
+      "decode": true,
+      "status": "valid",
+      "error": ""
+    }
+  },
+  {
+    "id": "llm_e2_machine_transport",
+    "code": "def e2_machine_transport_backbone(\n    data: ExperimentInput, chromosome: Chromosome, rng: random.Random\n) -> Chromosome:\n    \"\"\"Purpose: 从机器/运输共同骨架生成协同扰动；Input/Output: 标准三参数/新染色体。\"\"\"\n    candidates = []\n    flat = 0\n    for job in data.instance.jobs:\n        for operation in job.operations:\n            if len(operation.options) > 1:\n                times = [option.processing_time for option in operation.options]\n                candidates.append((sum(times) / len(times), flat, times))\n            flat += 1\n    position = max(candidates)[1] if candidates else rng.randrange(chromosome.operation_count)\n    ms = list(chromosome.ms)\n    if candidates:\n        times = next(row[2] for row in candidates if row[1] == position)\n        alternatives = [index for index in range(len(times)) if index != ms[position]]\n        ms[position] = min(alternatives, key=times.__getitem__)\n    agv = list(chromosome.agv)\n    agv[position] = (agv[position] + 1) % data.agv.count\n    empty = list(chromosome.empty_speed)\n    empty[position] = min(range(len(data.agv.speeds)), key=data.agv.speeds.__getitem__)\n    return _copy(chromosome, ms=ms, agv=agv, empty=empty)\n",
+    "generation_operator": "e2",
+    "parents": [
+      "N3",
+      "N4",
+      "N5",
+      "N6"
+    ],
+    "model": "OpenAI Codex GPT-5",
+    "seed": 103,
+    "validation_result": {
+      "syntax_import": true,
+      "interface": true,
+      "chromosome": true,
+      "decode": true,
+      "status": "valid",
+      "error": ""
+    }
+  },
+  {
+    "id": "llm_m1_transport_rewrite",
+    "code": "def m1_rewrite_transport_gene(\n    data: ExperimentInput, chromosome: Chromosome, rng: random.Random\n) -> Chromosome:\n    \"\"\"Purpose: 将单 AS 改写扩展为同位运输三基因改写；Input/Output: 标准三参数/新染色体。\"\"\"\n    position = rng.randrange(chromosome.operation_count)\n    agv = list(chromosome.agv)\n    empty = list(chromosome.empty_speed)\n    loaded = list(chromosome.loaded_speed)\n    agv[position] = (agv[position] + 1 + rng.randrange(data.agv.count - 1)) % data.agv.count\n    empty[position] = (empty[position] + 1 + rng.randrange(len(data.agv.speeds) - 1)) % len(data.agv.speeds)\n    loaded[position] = (loaded[position] + 1 + rng.randrange(len(data.agv.speeds) - 1)) % len(data.agv.speeds)\n    return _copy(chromosome, agv=agv, empty=empty, loaded=loaded)\n",
+    "generation_operator": "m1",
+    "parents": [
+      "N5",
+      "N6"
+    ],
+    "model": "OpenAI Codex GPT-5",
+    "seed": 104,
+    "validation_result": {
+      "syntax_import": true,
+      "interface": true,
+      "chromosome": true,
+      "decode": true,
+      "status": "valid",
+      "error": ""
+    }
+  }
+]
